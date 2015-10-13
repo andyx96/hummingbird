@@ -104,6 +104,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    ambry (0.3.1)
     annotate (2.6.10)
       activerecord (>= 3.2, <= 4.3)
       rake (~> 10.4)
@@ -210,6 +211,8 @@ GEM
     lumberjack (1.0.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    merit (2.3.2)
+      ambry (~> 0.3.0)
     method_source (0.8.2)
     mime-types (2.6.2)
     mimemagic (0.3.0)
@@ -388,6 +391,7 @@ DEPENDENCIES
   hiredis
   image_optim
   json_expressions
+  merit
   nokogiri
   oauth2
   oj

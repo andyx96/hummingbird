@@ -65,6 +65,8 @@
 #
 
 class User < ActiveRecord::Base
+  has_merit
+
   devise :database_authenticatable, :registerable, :recoverable,
          :validatable, :confirmable, :async
   rolify
